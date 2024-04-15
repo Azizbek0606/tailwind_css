@@ -713,6 +713,10 @@ video {
   mix-blend-mode: luminosity;
 }
 
+.\!mix-blend-luminosity {
+  mix-blend-mode: luminosity !important;
+}
+
 .transition {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
